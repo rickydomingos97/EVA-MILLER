@@ -83,11 +83,10 @@ button {
    HERO SECTION
    =================================== */
 .hero {
-  background: var(--multi-light);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px 20px 100px;
+  padding: 200px 20px 100px;
   gap: 40px;
   position: relative;
   width: 100%;
@@ -126,13 +125,27 @@ button {
 /* Header */
 .header {
   position: fixed;
+  top: 0px;
+  width: 100%;
+  max-width: 800px;
+  padding: 16px 20px;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 4px;
   justify-content: flex-end;
-  position: relative;
-  z-index: 1;
+  z-index: 100;
+  
+  transition: all 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 0px;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, 0.59);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
 }
 
 .header__name {
@@ -143,11 +156,28 @@ button {
   letter-spacing: -1.44px;
   color: var(--multi-brown-mid);
   white-space: nowrap;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header.scrolled .header__name {
+  font-size: 25.2px;
+  left: 0;
+  transform: translateX(0);
 }
 
 .header__line {
+  align-self: center;
   width: 360px;
   height: 1px;
+  transition: opacity 0.4s ease-out;
+}
+
+.header.scrolled .header__line {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .header__line svg {
@@ -542,6 +572,18 @@ button {
   white-space: nowrap;
 }
 
+.footer__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+.tiktok-logo {
+  width: 24px;
+  height: 24px;
+}
+
 /* Contact */
 .contact {
   display: flex;
@@ -763,7 +805,7 @@ button {
   }
 
   .hero {
-    padding: 48px 40px 100px;
+    padding: 200px 40px 100px;
     gap: 48px;
   }
 
@@ -775,6 +817,10 @@ button {
 
   .header__name {
     font-size: 44px;
+  }
+
+  .header.scrolled .header__name {
+    font-size: 30.8px;
   }
 
   .profile__img {
@@ -913,7 +959,7 @@ button {
   }
 
   .hero {
-    padding: 64px 60px 100px;
+    padding: 200px 60px 100px;
     gap: 56px;
   }
 
