@@ -578,11 +578,13 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
+  width: 100%;
+  padding: 0 40px;
 }
 
 .tiktok-logo {
-  width: 32px;
-  height: 32px;
+  width: 38px;
+  height: 38px;
 }
 
 /* Contact */
