@@ -576,12 +576,13 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   gap: 24px;
 }
 
 .tiktok-logo {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
 }
 
 /* Contact */
