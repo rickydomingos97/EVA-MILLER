@@ -125,6 +125,7 @@ button {
 
 /* Header */
 .header {
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -498,7 +499,7 @@ button {
   align-items: center;
   justify-content: center;
   gap: 40px;
-  padding: 20px 0 40px;
+  padding: 20px 0 100px;
   width: 100%;
 }
 
@@ -1004,7 +1005,7 @@ button {
   }
 
   .cta-section {
-    padding: 56px 60px 72px;
+    padding: 56px 60px 100px;
     gap: 56px;
   }
 
