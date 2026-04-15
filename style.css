@@ -753,11 +753,6 @@ button {
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
   }
 
- 
-
-  .certificates__img {
-    width: 60%;
-  }
 }
 
 /* --- Tablet (768px+) --- */
@@ -866,9 +861,6 @@ button {
     font-size: 44px;
   }
 
-  .certificates__img {
-    width: 60%;
-  }
 
   .cta-section {
     padding: 40px 40px 100px;
