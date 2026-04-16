@@ -1186,7 +1186,7 @@ button {
 /* --- Desktop (76rem+) --- */
 @media (min-width: 76rem) {
   main {
-    max-width: 90rem;
+    max-width: 120rem;
   
   }
 
