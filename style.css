@@ -457,6 +457,14 @@ button {
 }
 
 /* Stylist Card */
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
 .stylist-card {
   border: 0.25rem solid rgba(248, 249, 250, 0.14);
   border-radius: 0.5rem;
@@ -633,6 +641,21 @@ button {
   background: 
     linear-gradient(var(--multi-light), var(--multi-light)) padding-box,
     linear-gradient(107deg, rgba(173, 181, 189, 0.15) -4.03%, #505357 174.06%) border-box;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background: var(--gray-900) !important;
+}
+
+.card:hover .price-cards__title,
+
+.card:hover .total-price {
+  color: var(--gray-50);
+}
+
+.card:hover .price-cards__sub-title {
+  color: var(--gray-200);
 }
 
 .price-cards__title {
@@ -644,6 +667,7 @@ button {
   margin: 0;
   padding: 0;
   text-align: left;
+  transition: color 0.3s ease;
 }
 
 .price-cards__sub-title {
@@ -656,11 +680,13 @@ button {
   margin: 0;
   padding: 0;
   text-align: left;
+  transition: color 0.3s ease;
 }
 
 .total-price {
   font-size: 2.5rem;
   font-weight: 800;
+  transition: color 0.3s ease;
 }
 
 /* ===== PAYMENTS ===== */
@@ -1000,7 +1026,6 @@ button {
   }*/
 
   main {
-    box-shadow: 0 0 3.75rem rgba(0, 0, 0, 0.3);
   }
 
 }
@@ -1186,6 +1211,11 @@ button {
     font-size: 3.25rem;
   }
 
+  .header__profile-img {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+
   .profile__img {
     width: 13.75rem;
     height: 13.75rem;
@@ -1244,6 +1274,19 @@ button {
   .service-content__sub {
     font-size: 2rem;
   }
+
+  .prices {
+    gap: 6rem;
+  }
+  .cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+}
+
+
 
   .stylist-card__inner {
     width: 26.25rem;
@@ -1318,10 +1361,10 @@ button {
   }
 
   .footer__brand-text-wrapper {
-    height: 5.9375rem;
+    height: 9.9375rem;
   }
 
   .footer__brand-text {
-    font-size: 9.375rem;
+    font-size: 14.375rem;
   }
 }
