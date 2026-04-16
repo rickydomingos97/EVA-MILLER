@@ -1278,6 +1278,16 @@ button {
   .prices {
     gap: 6rem;
   }
+
+.prices__text {
+  font-size: 2.75rem;
+  width: 80%;
+}
+
+.prices__sub-text {
+  font-size: 2rem;
+}
+
   .cards {
   display: flex;
   flex-direction: row;
@@ -1323,6 +1333,11 @@ button {
 
   .footer__name {
     font-size: 2.25rem;
+  }
+
+  .tiktok-logo {
+    width: 3.125rem;
+    height: 3.125rem;
   }
 
   .contact__item span {

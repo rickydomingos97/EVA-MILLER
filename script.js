@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const targets = document.querySelectorAll(
     '.header, .profile, .hero-texts, .hero > .btn-cta, ' +
     '.personal-text, .service-content, .stylist-card, .service-section__bottom, ' +
+    '.certificates__content, .prices__content, .card, .payments__content, ' +
     '.cta-section__content, .cta-section > .btn-cta, ' +
     '.footer__name, .contact, .footer__bottom, .footer__brand'
   );
