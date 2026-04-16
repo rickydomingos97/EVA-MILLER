@@ -151,7 +151,7 @@ button {
 .header__name {
   font-family: 'Merriweather', serif;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 1.3;
   letter-spacing: -1.44px;
   color: var(--multi-brown-mid);
@@ -163,7 +163,7 @@ button {
 }
 
 .header.scrolled .header__name {
-  font-size: 25.2px;
+  font-size: 1.575rem;
   left: 0;
   transform: translateX(0);
 }
@@ -206,7 +206,7 @@ button {
 .profile__label {
   font-family: '42dot Sans', sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   color: var(--gray-400);
   white-space: nowrap;
@@ -233,13 +233,13 @@ button {
 }
 
 .headline-hero__emoji {
-  font-size: 38.71px;
+  font-size: 2.419rem;
   line-height: 1.3;
 }
 
 .headline-hero__text {
   font-family: 'Instrument Serif', serif;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 1.3;
   width: 100%;
   color: var(--gray-50);
@@ -253,7 +253,7 @@ button {
 
 .hero-texts__sub {
   font-family: 'Instrument Serif', serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.3;
   color: var(--gray-200);
   width: 100%;
@@ -289,7 +289,7 @@ button {
 .btn-cta__text {
   font-family: '42dot Sans', sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   color: var(--gray-700);
   white-space: nowrap;
@@ -364,7 +364,7 @@ button {
 .personal-text__titles {
   font-family: 'Instrument Serif', serif;
   font-style: italic;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 1.3;
   color: var(--gray-50);
   text-align: center;
@@ -399,14 +399,14 @@ button {
 
 .service-content__headline {
   font-family: 'Instrument Serif', serif;
-  font-size: 32px;
+  font-size: 2rem;
   text-align: center;
   width: 100%;
 }
 
 .service-content__sub {
   font-family: 'Instrument Serif', serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   white-space: nowrap;
 }
 
@@ -436,7 +436,7 @@ button {
 
 .stylist-card__title {
   font-family: 'Instrument Serif', serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.3;
   color: var(--gray-800);
   white-space: nowrap;
@@ -456,7 +456,7 @@ button {
 .stylist-card__list {
   font-family: '42dot Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
   color: var(--gray-800);
   text-align: center;
@@ -469,7 +469,7 @@ button {
 /* Service bottom text */
 .service-section__bottom {
   font-family: 'Instrument Serif', serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.3;
   color: var(--gray-200);
   width: 228px;
@@ -500,7 +500,7 @@ button {
 
 .certificates__text {
   font-family: 'Instrument Serif', serif;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 1.3;
   color: var(--gray-800);
   text-align: center;
@@ -538,7 +538,7 @@ button {
 
 .prices__text {
   font-family: 'Instrument Serif', serif;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 1.3;
   color: var(--gray-800);
   text-align: center;
@@ -552,7 +552,7 @@ button {
 }
 .prices__sub-text {
   font-family: 'Instrument Serif', serif;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 1.3;
   color: var(--gray-600);
   text-align: center;
@@ -595,7 +595,7 @@ button {
 
 .price-cards__title {
   font-family: '42dot Sans', sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   color: var(--gray-900);
   width: 100%;
   font-weight: 900;
@@ -606,7 +606,7 @@ button {
 
 .price-cards__sub-title {
   font-family: '42dot Sans', sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.6;
   color: var(--gray-700);
   width: 100%;
@@ -617,7 +617,7 @@ button {
 }
 
 .total-price {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
@@ -641,7 +641,7 @@ button {
 
 .payments__text {
   font-family: 'Instrument Serif', serif;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 1.3;
   color: var(--gray-800);
   text-align: center;
@@ -660,6 +660,22 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 120px;
+  padding: 0 0 24px 0;
+}
+
+.payments__text_paypal {
+  font-family: 'Instrument Serif', serif;
+  font-size: 1rem;
+  line-height: 1.3;
+  color: var(--gray-800);
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 32px;
+  padding: 0 20px;
 }
 
 
@@ -687,7 +703,7 @@ button {
 
 .cta-section__text {
   font-family: 'Instrument Serif', serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.3;
   color: var(--gray-400);
   text-align: center;
@@ -711,7 +727,7 @@ button {
 .footer__name {
   font-family: 'Merriweather', serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.3;
   letter-spacing: -1.44px;
   color: var(--gray-400);
@@ -740,13 +756,13 @@ button {
   gap: 8px;
   align-items: center;
   justify-content: center;
-  padding: 0 20px;
+  padding: 0 24px;
 }
 
 .contact__item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 14px;
   transition: opacity 0.2s ease;
 }
 
@@ -776,7 +792,7 @@ button {
 .contact__item span {
   font-family: '42dot Sans', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 1rem;
   line-height: 1.5;
   color: var(--gray-600);
   white-space: nowrap;
@@ -814,7 +830,7 @@ button {
 .btn-back-top span {
   font-family: '42dot Sans', sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.5;
   color: inherit;
   white-space: nowrap;
@@ -832,7 +848,7 @@ button {
 .footer__location {
   font-family: '42dot Sans', sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.5;
   color: var(--gray-500);
   white-space: nowrap;
@@ -867,7 +883,7 @@ button {
 
 .footer__brand-text {
   font-family: 'Instrument Serif', serif;
-  font-size: 100px;
+  font-size: 6.25rem;
   line-height: 1;
   text-align: center;
   color: transparent;
@@ -965,11 +981,11 @@ button {
   }
 
   .header__name {
-    font-size: 44px;
+    font-size: 2.75rem;
   }
 
   .header.scrolled .header__name {
-    font-size: 30.8px;
+    font-size: 1.925rem;
   }
 
   .profile__img {
@@ -978,17 +994,17 @@ button {
   }
 
   .profile__label {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .headline-hero__text {
-    font-size: 38px;
+    font-size: 2.375rem;
     width: 100%;
     padding: 0;
   }
 
   .hero-texts__sub {
-    font-size: 22px;
+    font-size: 1.375rem;
     width: 100%;
     padding: 0;
   }
@@ -998,7 +1014,7 @@ button {
   }
 
   .btn-cta__text {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .service-section {
@@ -1023,16 +1039,16 @@ button {
   }
 
   .personal-text__titles {
-    font-size: 38px;
+    font-size: 2.375rem;
   }
 
   .service-content__headline {
-    font-size: 36px;
+    font-size: 2.25rem;
     max-width: 100%;
   }
 
   .service-content__sub {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .stylist-card__inner {
@@ -1041,20 +1057,20 @@ button {
   }
 
   .stylist-card__title {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .stylist-card__list {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .service-section__bottom {
-    font-size: 28px;
+    font-size: 1.75rem;
     width: 80%;
   }
 
   .certificates__text {
-    font-size: 44px;
+    font-size: 2.75rem;
   }
 
 
@@ -1064,7 +1080,7 @@ button {
   }
 
   .cta-section__text {
-    font-size: 24px;
+    font-size: 1.5rem;
     max-width: 480px;
   }
 
@@ -1074,11 +1090,11 @@ button {
   }
 
   .footer__name {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .contact__item span {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .footer__bottom {
@@ -1091,7 +1107,7 @@ button {
   }
 
   .footer__brand-text {
-    font-size: 120px;
+    font-size: 7.5rem;
     width: 100%;
   }
 
@@ -1119,7 +1135,7 @@ button {
   }
 
   .header__name {
-    font-size: 52px;
+    font-size: 3.25rem;
   }
 
   .profile__img {
@@ -1128,20 +1144,20 @@ button {
   }
 
   .profile__label {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .headline-hero__emoji {
-    font-size: 48px;
+    font-size: 3rem;
   }
 
   .headline-hero__text {
-    font-size: 44px;
+    font-size: 2.75rem;
     width: 100%;
   }
 
   .hero-texts__sub {
-    font-size: 32px;
+    font-size: 2rem;
     width: 100%;
   }
 
@@ -1150,7 +1166,7 @@ button {
   }
 
   .btn-cta__text {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .btn-cta__icon {
@@ -1169,16 +1185,16 @@ button {
   }
 
   .personal-text__titles {
-    font-size: 44px;
+    font-size: 2.75rem;
   }
 
   .service-content__headline {
-    font-size: 42px;
+    font-size: 2.625rem;
     max-width: 100%;
   }
 
   .service-content__sub {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .stylist-card__inner {
@@ -1187,15 +1203,15 @@ button {
   }
 
   .stylist-card__title {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .stylist-card__list {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .service-section__bottom {
-    font-size: 32px;
+    font-size: 2rem;
     width: 500px;
   }
 
@@ -1205,7 +1221,7 @@ button {
   }
 
   .cta-section__text {
-    font-size: 28px;
+    font-size: 1.75rem;
     width: 100%;
   }
 
@@ -1215,11 +1231,11 @@ button {
   }
 
   .footer__name {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   .contact__item span {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .contact__icon--phone {
@@ -1246,11 +1262,11 @@ button {
   }
 
   .btn-back-top span {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .footer__location {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .footer__brand-text-wrapper {
@@ -1258,6 +1274,6 @@ button {
   }
 
   .footer__brand-text {
-    font-size: 150px;
+    font-size: 9.375rem;
   }
 }
