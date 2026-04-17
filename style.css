@@ -196,8 +196,8 @@ button {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(0.5);
-  width: 4.125rem;
-  height: 4.125rem;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 50%;
   object-fit: cover;
   opacity: 0;
