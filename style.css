@@ -184,7 +184,7 @@ button {
 
 .header.scrolled .header__name {
   font-size: 1.575rem;
-  left: 0rem;
+  left: 1rem;
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
