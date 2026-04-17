@@ -163,7 +163,7 @@ button {
 
 .header.scrolled .menu-scrolled {
   padding: 0 2rem;
-  height: 4rem;
+  height: 2rem;
   display: block;
   position: relative;
 }
@@ -745,7 +745,7 @@ button {
 
 .payments__text_paypal {
   font-family: 'Instrument Serif', serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   line-height: 1.3;
   color: var(--gray-800);
   text-align: center;
@@ -1033,13 +1033,10 @@ button {
 
 /* --- Mobile (24.375rem+) --- */
 @media (min-width: 24.375rem) {
-  /*body {
-    background: var(--gray-900);
-  }*/
 
-  main {
+  .header.scrolled {
+    width: calc(100% - 1rem);
   }
-
 }
 
 /* --- Tablet (48rem+) --- */
