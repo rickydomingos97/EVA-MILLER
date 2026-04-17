@@ -909,8 +909,8 @@ button {
 
 .btn-back-top span {
   font-family: '42dot Sans', sans-serif;
-  font-weight: 500;
-  font-size: 0.75rem;
+  font-weight: 800;
+  font-size: 1.25rem;
   line-height: 1.5;
   color: inherit;
   white-space: nowrap;
@@ -1193,6 +1193,11 @@ button {
   .footer__brand-line {
     width: 100%;
   }
+
+  .btn-back-top span {
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
 }
 
 /* --- Desktop (76rem+) --- */
@@ -1382,7 +1387,8 @@ button {
   }
 
   .btn-back-top span {
-    font-size: 0.875rem;
+    font-size: 1.25rem;
+    font-weight: 800;
   }
 
   .footer__location {
